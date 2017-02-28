@@ -1,0 +1,26 @@
+html {
+    font-size: 18px;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.media-object {
+    display: flex;
+    width: 600px;
+    background-color: #dcdcdc;
+    border-radius: 6px;
+    padding: .75em;
+    margin: 2px auto;
+    > img {
+        width: 100px;
+        height: 100px;
+        margin-right: .75em;
+        flex-shrink: 0;
+    }
+    >.media-text {
+        flex-grow: 1;
+    }
+}

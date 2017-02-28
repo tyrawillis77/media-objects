@@ -1,0 +1,19 @@
+/* line 1, I:/Web Dev Projects/media-objects/styles/main.scss */
+html {
+  font-size: 18px;
+  font-family: Georgia, serif; }
+
+/* line 6, I:/Web Dev Projects/media-objects/styles/main.scss */
+h1 {
+  text-align: center; }
+
+/* line 10, I:/Web Dev Projects/media-objects/styles/main.scss */
+.media-object {
+  display: flex;
+  width: 600px; }
+  /* line 14, I:/Web Dev Projects/media-objects/styles/main.scss */
+  .media-object > img {
+    width: 100px;
+    height: 100px; }
+
+/*# sourceMappingURL=main.css.map */
